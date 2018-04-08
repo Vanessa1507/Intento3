@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class ManejadorDataBase extends SQLiteOpenHelper{
 
-    public static String DB_UBICACION ;
+    public static String DB_UBICACIOfdfgdfN ;
 
     public ManejadorDataBase(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
