@@ -18,8 +18,8 @@ import java.io.OutputStream;
 
 public class ManejadorDataBase extends SQLiteOpenHelper{
 
-    private static String DB_UBICACION = "data/data/com.example.usar.intento3/databases";
-    private static final String DB_NOMBRE = "dbuniversiapp.db" ;
+    private static String DB_UBICACION = "data/data/com.example.user.intento3/databases";
+    private static final String DB_NOMBRE = "dbuniversiapp.zip" ;
 
     private static SQLiteDatabase mDataBase;
 
