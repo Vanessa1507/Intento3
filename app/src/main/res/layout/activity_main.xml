@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="ID"
+            android:text="ID carrera"
             android:gravity="center"
             android:layout_weight="1"/>
 
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Nombre"
+            android:text="Nombre carrera"
             android:gravity="center"
             android:layout_weight="1"
             />

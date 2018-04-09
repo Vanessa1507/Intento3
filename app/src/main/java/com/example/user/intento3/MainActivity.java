@@ -16,9 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         activity = this;
-        //manejadorDB = ManejadorDataBase.instance();
+        manejadorDB = manejadorDB.instance();
 
-        //Cursor cursor = manejadorDB.select("SELECT");
+        Cursor cursor = manejadorDB.select("SELECT * FROM uni_db_carreras");
+
     }
 
 }
